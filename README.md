@@ -19,8 +19,8 @@ Methods:
 
 Add New Habit Action
 <br>Edit Habit Action
-- Set Action Reward 
-- Set Reward Conversion Rate
+    <br>Set Action Reward 
+    <br>Set Reward Conversion Rate
 <br>Delete Habit Action
 <br>View Habit History
 <br>View All-Time History
