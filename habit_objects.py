@@ -2,7 +2,7 @@ class HabitAction:
   def __init__(self, name, paired_action, action_conversion, reward_time):
     self._name = name
     self._paired_action = paired_action
-    self._action_conversion = action_conversion   # float in 0.5 increments
+    self._action_conversion = round(action_conversion, 2)   
     self._reward_time = reward_time
 
   def set_paired_action(self, new_paired_action):
@@ -16,7 +16,7 @@ class HabitAction:
     return f"Action Conversion changed from {self._old_action_conversion} to {self._action_conversion}"
 
   def add_reward_time(self, habit_time):
-    self._new_reward_time = habit_time * self._action_conversion
+    self._new_reward_time = round(habit_time * self._action_conversion, 1)
     self._old_reward_time = self._reward_time
     self._reward_time += new_reward_time
     return f"{self._new_reward_time} added to {self._old_reward_time}. New Reward Time: {self._reward_time}"
