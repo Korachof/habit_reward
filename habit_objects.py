@@ -18,7 +18,7 @@ class HabitAction:
   def add_reward_time(self, habit_time):
     self._new_reward_time = round(habit_time * self._action_conversion, 1)
     self._old_reward_time = self._reward_time
-    self._reward_time += new_reward_time
+    self._reward_time += self._new_reward_time
     return f"{self._new_reward_time} added to {self._old_reward_time}. New Reward Time: {self._reward_time}"
 
   def get_name(self):
