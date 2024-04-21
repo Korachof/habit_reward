@@ -1,5 +1,4 @@
 import script_functions
-from script_functions import choose_menu_option
 
 def main():
     check_switch = 0
