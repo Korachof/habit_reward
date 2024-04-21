@@ -10,6 +10,8 @@ class DataBase:
     with open(f"{self._user}.json", "w") as outfile:
       json.dump(self._db, outfile)
 
+    outfile.close()
+
   def load_db(self, user):
     if os.path.isfile(f"{user}.json") is False:
       return "The File Does Not Exist"
@@ -19,6 +21,8 @@ class DataBase:
 
     self._user = user
     self._db = db_data
+
+    save_file.close()
     
     
       
