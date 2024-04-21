@@ -12,15 +12,15 @@ They also love to play video games, and would like to regulate their time spent 
 They decide they would like to motivate themselves quite a bit, so they choose a 1:2 conversion rate, which means for every hour they spend working on personal projects, they will be rewarded two hours of video game time. 
 
 Habit Action: Personal Projects
-Paired Reward Action: Video Games
-Conversion Rate: 1:2 
+<br>Paired Reward Action: Video Games
+<br>Conversion Rate: 1:2 
 
 Methods:
 
 Add New Habit Action
-Edit Habit Action
+<br>Edit Habit Action
 - Set Action Reward 
 - Set Reward Conversion Rate
-Delete Habit Action
-View Habit History
-View All-Time History
+<br>Delete Habit Action
+<br>View Habit History
+<br>View All-Time History
