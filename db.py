@@ -5,6 +5,7 @@ class DataBase:
   def __init__(self, user, db):
     self._user = user
     self._db = db
+    self._paired_actions = []
 
   def save_db(self):
     with open(f"{self._user}.json", "w") as outfile:
